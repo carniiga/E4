@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lora&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section_container{
+    width: 100%;
+   }
+
+.title-p h2{  
+    font-family:'anton',sans-serif;
+    padding: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.title-p p{
+    font-family:'lora',sans-serif;
+    padding: 10px;
+    font-size: 16px;    
+}
+.title-p{   
+    text-align: center;
+}
+.beneficio_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+    height: 200px;
+    width: 30vh;
+}
+.beneficio_1 h4{
+    font-family:'anton',sans-serif;
+    margin:10px;
+    text-transform: uppercase;
+}
+.beneficio_1 div{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+i{  
+    font-size: 30px;
+    color:gray;
+    margin:20px;  
+} 
+.beneficios_container{
+    display: flex;
+    justify-content: space-around;
+}
+.section_container_2{ 
+    margin-top: 20px;
+}
+hr{
+    margin: 20px 50px;
+     background-color: grey; 
+}
+.beneficio_1:hover{
+    transition: 0.9s;
+}
+.beneficio_1  i:hover{
+    cursor: pointer;
+    font-size: 40px;
+    transition: 0.9s;
+}
+.section_container:hover{
+    background-color: rgb(238, 237, 235);
+    transition: 0.9s;
+}
+.section_container_2:hover{
+    background-color: rgb(238, 237, 235);
+    transition: 0.9s;
+}
+
+
+
+
+
+
+
+    
+
+
+
+
